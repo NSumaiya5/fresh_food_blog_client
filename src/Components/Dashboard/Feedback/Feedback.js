@@ -19,7 +19,7 @@ const Feedback = () => {
 
         console.log(feedbackInfo);
 
-        const url = `http://localhost:9999/addFeedback`;
+        const url = `https://desolate-wildwood-21034.herokuapp.com/addFeedback`;
         fetch(url, {
             method: 'POST',
             headers: {

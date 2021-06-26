@@ -18,7 +18,7 @@ const AddBlog = () => {
         };
 
 
-        const url = `http://localhost:9999/addBlog`;
+        const url = `https://desolate-wildwood-21034.herokuapp.com/addBlog`;
         fetch(url, {
             method: 'POST',
             headers: {
