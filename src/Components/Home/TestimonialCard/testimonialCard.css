@@ -1,0 +1,16 @@
+.testimonialCardInfo{
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 1px 10px 40px 10px rgb(13, 172, 106);
+}
+
+.testimonialBg{
+    background-color: rgb(28, 138, 56);
+    padding-top: 50px;
+}
