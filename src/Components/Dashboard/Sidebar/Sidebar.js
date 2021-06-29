@@ -45,7 +45,7 @@ const Sidebar = () => {
                 <div style={{ display: checkAdmin ? 'none' : 'block' }}>
                     <li>
                         <Link to="/feedback" className="text-white" >
-                            <FontAwesomeIcon icon={faPlus} /> <span>Feedback</span>
+                            <FontAwesomeIcon icon={faPlus} /><span>Feedback</span>
                         </Link>
                     </li>
                 </div>
