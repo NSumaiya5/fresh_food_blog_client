@@ -10,7 +10,7 @@ const AddAdmin = () => {
 
         console.log(newAdminInfo);
 
-        const url = `https://desolate-wildwood-21034.herokuapp.com/addAdmin`;
+        const url = `http://localhost:9999/addAdmin`;
         fetch(url, {
             method: 'POST',
             headers: {
