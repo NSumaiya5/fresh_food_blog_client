@@ -6,7 +6,7 @@ const ManageBlog = () => {
     const [blog, setBlog] = useState([]);
 
     useEffect(() => {
-        fetch('https://desolate-wildwood-21034.herokuapp.com/blog')
+        fetch('http://localhost:9999/blog')
             .then(res => res.json())
             .then(data => setBlog(data))
     }, [])
@@ -14,7 +14,7 @@ const ManageBlog = () => {
 
 
     const deleted = () => {
-        fetch('https://desolate-wildwood-21034.herokuapp.com/blog')
+        fetch('http://localhost:9999/blog')
             .then(res => res.json())
             .then(data => setBlog(data))
     }
@@ -22,7 +22,7 @@ const ManageBlog = () => {
 
     const handleDelete = (id) => {
 
-        fetch(`https://desolate-wildwood-21034.herokuapp.com/deleteBlog/${id}`, {
+        fetch(`http://localhost:9999/deleteBlog/${id}`, {
             method: "DELETE"
         })
             .then(res => res.json())
